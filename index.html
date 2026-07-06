@@ -5,6 +5,34 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Himanshu Virwani | BI Developer &amp; Fabric Engineer</title>
 
+<!--
+====================================================================
+  QUICK-EDIT GUIDE — everything you need to swap is marked "REPLACE"
+====================================================================
+  1. YOUR PHOTO        -> search for  REPLACE-PHOTO-PATH
+                          put a local path (e.g. "photo.jpg", keep the
+                          image file next to this .html) or a hosted
+                          image URL.
+
+  2. PROJECT PDFs       -> search for  REPLACE-PDF-1 / -2 / -3
+                          put the path or link to each .pbip/.pdf case
+                          study (e.g. "assets/onyxdata.pdf" or a
+                          Google Drive / GitHub share link).
+
+  3. RESUME DOWNLOAD    -> search for  REPLACE-RESUME-DRIVE-LINK
+                          paste your Google Drive "share" link here.
+                          Use a Drive link in this format so it
+                          triggers a direct download instead of just
+                          opening the preview:
+                          https://drive.google.com/uc?export=download&id=FILE_ID
+                          (Get FILE_ID from your normal share link:
+                          drive.google.com/file/d/FILE_ID/view)
+
+  4. CONTACT LINKS      -> search for  REPLACE-EMAIL / REPLACE-LINKEDIN /
+                          REPLACE-GITHUB
+====================================================================
+-->
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
@@ -217,7 +245,7 @@
   .card-link span.arrow{transition:transform .2s ease, color .2s ease;}
   .card:hover .card-link span.arrow{transform:translateX(4px); color:var(--signal-dark);}
 
-  /* ---------- Experience ---------- */
+  /* ---------- Experience & Education Timeline ---------- */
   .timeline{display:flex; flex-direction:column; gap:0;}
   .tl-item{
     display:grid; grid-template-columns:140px 1fr; gap:20px; padding:20px 14px;
@@ -290,6 +318,8 @@
       <a href="#about">About</a>
       <a href="#projects">Projects</a>
       <a href="#experience">Experience</a>
+      <!-- ADDED EDUCATION LINK -->
+      <a href="#education">Education</a>
       <a href="#highlights">Highlights</a>
       <a href="#contact">Contact</a>
     </nav>
@@ -298,13 +328,14 @@
 
 <main class="wrap">
 
+  <!-- ================= HERO ================= -->
   <section id="about" class="hero">
     
     <div>
       <span class="eyebrow">⚙ BI Developer &amp; Fabric Engineer</span>
       <h1 class="headline">Architecting <br><span class="grad">Data Precision.</span></h1>
       <p class="lede">
-        I'm <strong>Himanshu Virwani</strong>, a BI Developer and Fabric Engineer. I build clean Fabric Datalakes & Eventhouse, data pipelines,
+        I'm <strong>Himanshu Virwani</strong>, a BI Developer and Fabric Engineer. I build clean Fabric Datalakes & Eventhouse,
         optimize DAX metrics, and design Power BI interfaces that process billions of rows with sub-second retrieval.
       </p>
 
@@ -330,12 +361,14 @@
 
   </section>
 
+  <!-- ================= PROJECTS ================= -->
   <section id="projects">
     <h2 class="section-title">🧭 Selected Projects</h2>
     <p class="section-sub">Case studies — click a card to open the live report</p>
 
     <div class="cards">
 
+      <!-- Project 1 -->
       <a class="card" href="https://app.powerbi.com/view?r=eyJrIjoiNDI2YTFmYWEtYzBiMC00MTVjLTkyYzctMzI1ZWJkMDA5NTNlIiwidCI6ImZiM2Q2Mjc1LWVlMjAtNDg2OS05OGMxLWVkMTliMjA2NzkzMSJ9" target="_blank" rel="noopener noreferrer">
         <div class="card-thumb"><img src="Slide1.JPG" alt="Dashboard Preview"></div>
         <div class="card-body">
@@ -350,6 +383,7 @@
         </div>
       </a>
 
+      <!-- Project 2 -->
       <a class="card" href="https://app.powerbi.com/view?r=eyJrIjoiYzY0MDE0NzctOTcyOS00YjM1LTk3YWItMWI0NmNiNGRhNmFlIiwidCI6ImZiM2Q2Mjc1LWVlMjAtNDg2OS05OGMxLWVkMTliMjA2NzkzMSJ9" target="_blank" rel="noopener noreferrer">
         <div class="card-thumb"><img src="slide 3.jpg" alt="Dashboard Preview"></div>
         <div class="card-body">
@@ -364,6 +398,7 @@
         </div>
       </a>
 
+      <!-- Project 3 -->
       <a class="card" href="https://app.powerbi.com/view?r=eyJrIjoiN2E3Mjc1ZTgtZmFlOC00ZTI0LWJiNWQtNGQ3NDgyNmFiOTRlIiwidCI6ImZiM2Q2Mjc1LWVlMjAtNDg2OS05OGMxLWVkMTliMjA2NzkzMSJ9" target="_blank" rel="noopener noreferrer">
         <div class="card-thumb"><img src="Slide2.JPG" alt="Dashboard Preview"></div>
         <div class="card-body">
@@ -381,6 +416,7 @@
     </div>
   </section>
 
+  <!-- ================= EXPERIENCE ================= -->
   <section id="experience">
     <h2 class="section-title">💼 Experience</h2>
     <p class="section-sub">Professional history</p>
@@ -413,6 +449,37 @@
     </div>
   </section>
 
+  <!-- ================= EDUCATION ================= -->
+  <!-- NEW SECTION ADDED -->
+  <section id="education">
+    <h2 class="section-title">🎓 Education</h2>
+    <p class="section-sub">Academic background</p>
+
+    <div class="timeline">
+      <div class="tl-item">
+        <!--[cite: 1] -->
+        <div class="tl-period tl-current">Apr 2024 – Mar 2026</div>
+        <div>
+          <!--[cite: 1] -->
+          <div class="tl-role">M.Sc. Big Data &amp; Business Analytics</div>
+          <!--[cite: 1] -->
+          <div class="tl-company">FOM University, Germany</div>
+        </div>
+      </div>
+      <div class="tl-item">
+        <!--[cite: 1] -->
+        <div class="tl-period">Jul 2019 – Mar 2023</div>
+        <div>
+          <!--[cite: 1] -->
+          <div class="tl-role">B.E. Computer Engineering</div>
+          <!--[cite: 1] -->
+          <div class="tl-company">LDRP Institute of Technology, India</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= HIGHLIGHTS ================= -->
   <section id="highlights">
     <h2 class="section-title">📊 Other Highlights</h2>
     <p class="section-sub">Additional analytics work</p>
@@ -442,6 +509,7 @@
     </div>
   </section>
 
+  <!-- ================= CONTACT ================= -->
   <section id="contact">
     <div class="contact">
       <div>
@@ -449,6 +517,7 @@
         <h2>Let's build <br>something precise.</h2>
         <p>Open to BI developer roles, senior analytics modeling, lakehouse integrations, and contracting. Ready to relocate.</p>
         <div class="channels">
+          <!-- REPLACE-EMAIL / REPLACE-LINKEDIN / REPLACE-GITHUB -->
           <a class="channel" href="mailto:himanshuvirwani7@gmail.com" id="emailLink">✉ himanshuvirwani7@gmail.com<span class="copy-toast" id="copyToast">Copied!</span></a>
           <a class="channel" href="https://www.linkedin.com/in/himanshuvirwani/" target="_blank" rel="noopener noreferrer">in Himanshu Virwani</a>
           <a class="channel" href="https://github.com/HimanshuVirwani" target="_blank" rel="noopener noreferrer">⌥ HimanshuVirwani</a>
